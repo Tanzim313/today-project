@@ -19,13 +19,23 @@ const Dashboard=()=>{
         </div>
 
 
-        <div>
-            <h1>To do list</h1>
+        <div className="p-12">
+            <h1 className="text-2xl text-center mb-10 font-bold">Done</h1>
 
-            <div className="flex gap-4">
-                <h1>name</h1>
-                <button>Done</button>
+            <div className="flex flex-col justify-center  items-center gap-4 border-2 border-black p-10 bg-green-500 text-white">
+                <div  className="flex gap-40 border-2 p-4">
+
+                <h1>Tanzim Course</h1>
                 <button>Cancel</button>
+
+                </div>
+
+                <div  className="flex gap-40  border-2 p-4">
+
+                <h1>Tanzim Course</h1>
+                <button>Cancel</button>
+
+                </div>
             </div>
         </div>
 
