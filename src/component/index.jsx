@@ -1,8 +1,24 @@
+import { useQuery } from "@tanstack/react-query";
 import React from "react";
 
 const Index=()=>{
 
-    
+
+{/*
+useQuery({
+  queryKey: ['tools'],
+  queryFn: async () => {
+    const response = await fetch('http://localhost:3000/tools')
+    if (!response.ok) {
+      throw new Error('Network response was not ok')
+    }
+    return response;
+  },
+})
+
+*/}
+
+
 
    return(
 
