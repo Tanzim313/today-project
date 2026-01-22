@@ -16,23 +16,33 @@ const Dashboard=()=>{
                 <button className="btn btn-neutral">Add</button>
             </div>
 
+
+            <div  className="flex justify-center gap-40 border-2 p-4 bg-green-500">
+
+                <h1>Tanzim Course</h1>
+                <button>Done</button>
+
+           </div>
+
+
+
         </div>
 
 
         <div className="p-12">
-            <h1 className="text-2xl text-center mb-10 font-bold">Done</h1>
+            <h1 className="text-3xl text-center mb-10 font-bold">Done</h1>
 
             <div className="flex flex-col justify-center  items-center gap-4 border-2 border-black p-10 bg-green-500 text-white">
                 <div  className="flex gap-40 border-2 p-4">
 
-                <h1>Tanzim Course</h1>
+                <h1>1.Tanzim Course</h1>
                 <button>Cancel</button>
 
                 </div>
 
                 <div  className="flex gap-40  border-2 p-4">
 
-                <h1>Tanzim Course</h1>
+                <h1>2.Tanzim Course</h1>
                 <button>Cancel</button>
 
                 </div>
