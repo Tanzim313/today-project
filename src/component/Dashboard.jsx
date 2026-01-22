@@ -18,7 +18,18 @@ const Dashboard=()=>{
 
         </div>
 
-        
+
+        <div>
+            <h1>To do list</h1>
+
+            <div className="flex gap-4">
+                <h1>name</h1>
+                <button>Done</button>
+                <button>Cancel</button>
+            </div>
+        </div>
+
+
 
     
 
